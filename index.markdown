@@ -123,14 +123,10 @@ MuWire is open-source.  You can find the source code on the GitLab link at the t
 <br/>
 # Download MuWire 0.8.12
 
-You can install MuWire as a desktop application or as a web application.  
-
-The desktop application has more features, while the web application is better suited for remote use.  Both share the same network core. 
-
 <center>
 <div id="all-downloads-container">
 <div class="download-container">
-<h2>Desktop Easy Install Bundle</h2>
+<h2>Easy Install Bundle</h2>
 Comes with everything you need to run MuWire.<br/>
 ( Download size up to 53MB )<br/>
 <a class="get-muwire" href="/downloads/MuWire-0.8.12.exe">Windows</a>
@@ -140,20 +136,14 @@ Comes with everything you need to run MuWire.<br/>
 <a class="get-muwire" href="/downloads/MuWire-aarch64-0.8.12.AppImage">Linux AARCH64</a>
 </div>
 <div class="download-container">
-<h2>Desktop Small Download Bundle</h2>
+<h2>Small Download Bundle</h2>
 You need to have Java 11 or newer.<br/>
 ( Download size 27MB )<br/>
 <a class="get-muwire" href="/downloads/MuWire-0.8.12.zip">ZIP File</a>
 </div>
 <div class="download-container">
-<h2>Web Application</h2>
-You need to have a Java I2P router.<br/>
-( Download size 11MB )<br/>
-<a class="plugin" href="/plugin.html">Web App</a>
-</div>
-<div class="download-container">
 Interested in trying the latest features?<br/>
-<a class="get-beta" href="/beta.html">Desktop BETA</a>
+<a class="get-beta" href="/beta.html">BETA</a>
 </div>
 <div class="mucats">
 [ I2Pd users please see the <a href="/i2pd.html">I2Pd instructions</a>. ]
@@ -182,7 +172,7 @@ You can publish your shared files to your personal feed and subscribe to the fee
 
 **Messages And Chat**
 
-You can communicate with other MuWire users via messages and chat.  ( Available only in desktop application. )
+You can communicate with other MuWire users via messages and chat.  
 
 **File Certificates**
 
