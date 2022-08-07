@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+<style>
+div.wikiheader {
+        float : left;
+        padding-right: 1em;
+}
+div.wikiheaders {
+}
+
+.dropdown {
+	float : left;
+	padding-right: 1em;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	border: none;
+	outline: none;
+	font-family: inherit;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+}
+
+.dropdown-content a {
+	float: none;
+	display: block;
+	text-align: left;
+	background-color: white;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+div#dedicated {
+	margin-top: 25px;
+	float: left;
+}
+div#powered {
+	float: right;
+}
+</style>
+
+<div class="page-content">
+	<div class="wrapper">
+		<div class="wikiheaders">
+			<div class="wikiheader"><a href="/">Home</a></div>
+			<div class="wikiheader"><a href="/screenshots.html">Screenshots</a></div>
+			<div class="dropdown">
+				<a class="dropbtn" href="#">Download</a>
+				<div class="dropdown-content">
+					<a href="/beta.html">BETA</a>
+					<a href="/plugin.html">Web App</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a class="dropbtn" href="#">Features</a>
+				<div class="dropdown-content">
+					<a href="/sidecar-files.html">Sidecar Files</a>
+					<a href="/file-feeds.html">File Feeds</a>
+					<a href="/file-certificates.html">Certificates</a>
+					<a href="/trust.html">Web Of Trust</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a class="dropbtn" href="#">Guides</a>
+				<div class="dropdown-content">
+					<a href="/search-phrases.html">Search</a>
+					<a href="/security.html">Security</a>
+					<a href="/many-files.html">Mega-Sharing</a>
+					<a href="/i2pd.html">I2Pd</a>
+				</div>
+			</div>
+			<!-- add more -->
+			<div><br/></div>
+		</div>
+
+		{{ content }}
+
+		<hr/>
+		<div id="dedicated">Dedicated To All Human Beings</div>
+		<div id="powered">Powered By <br/> <a href="http://i2p-projekt.i2p"><img src="/i2plogo.png"/></a></div>
+	</div>
+</div>
+
+  </body>
+</html>
+
