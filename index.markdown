@@ -157,29 +157,18 @@ Interested in trying the latest features?<br/>
 The first time you run MuWire it will ask you to choose a nickname.  That nickname is combined with a cryptographically strong I2P address and forms your unique identity on MuWire.  My MuWire identity is `zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj`
 
 # Features
-**Search**
+* **Search for files**: You can <a href="/search-phrases.html">search for files</a> shared by other MuWire users.
 
-You can search for files shared by other MuWire users. For more info, see <a href="/search-phrases.html">searching MuWire</a>. 
+* **Share files**: 
+You can <a href="/sharing.html">share your own files</a> with other MuWire users.  
+    * You can organize the files into <a href="/file-feeds.html">automatic feeds</a> like for a blog.
+    * You can add comments about your shared files. When someone searches for a keyword that is present in any of the comments, they will see a search result and will be able to read the comment, as well as download the file.  
+    * You can <a href="/file-certificates.html">issue a certificate</a> for a file you share to prove to others that you have the file.
 
+* **Messages And Chat**: 
+You can communicate with other MuWire users via messages and real-time chat.  
 
-**File Comments**
-
-You can add comments about your shared files from MuWire or using <a href="/sidecar-files.html">sidecar files</a>.  When someone searches for a keyword that is present in any of the comments, they will see a search result and will be able to read the comment, as well as download the file.
-
-**File Feeds**
-
-You can publish your shared files to your personal feed and subscribe to the feeds of other users.  This is similar to following someone on a social network.  For more information see <a href="/file-feeds.html">file feeds</a>.
-
-**Messages And Chat**
-
-You can communicate with other MuWire users via messages and chat.  
-
-**File Certificates**
-
-You can issue a certificate for a file you share to prove to others that you have the file.  For more information see <a href="/file-certificates.html">file certificates</a>
-
-**Trust**
-
-You can choose to trust or distrust other MuWire users.  For more information see <a href="/trust.html">Trust in MuWire</a>.
+* **Trust**:
+You can choose to <a href="/trust.html">trust or distrust</a> other MuWire users.
 
 
