@@ -96,7 +96,7 @@ a.plugin {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
+*sha*  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   //background: green;
@@ -157,18 +157,18 @@ Interested in trying the latest features?<br/>
 The first time you run MuWire it will ask you to choose a nickname.  That nickname is combined with a cryptographically strong I2P address and forms your unique identity on MuWire.  My MuWire identity is `zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj`
 
 # Features
-* **Search for files**: You can <a href="/search-phrases.html">search for files</a> shared by other MuWire users.
+* **Search for files**: You can [search for files](search-phrases) shared by other MuWire users.
 
 * **Share files**: 
-You can <a href="/sharing.html">share your own files</a> with other MuWire users.  
-    * You can organize the files into <a href="/file-feeds.html">automatic feeds</a> like for a blog.
-    * You can add comments about your shared files. When someone searches for a keyword that is present in any of the comments, they will see a search result and will be able to read the comment, as well as download the file.  
-    * You can <a href="/file-certificates.html">issue a certificate</a> for a file you share to prove to others that you have the file.
+You can [share your own files](sharing) with other MuWire users, with several options:
+    * You can organize the files into [automatic feeds](file-feeds) like for a blog.
+    * You can add comments about your shared files.
+    * You can [issue a certificate](file-certificates) for a file you share to prove to others that you have the file.
 
 * **Messages And Chat**: 
 You can communicate with other MuWire users via messages and real-time chat.  
 
 * **Trust**:
-You can choose to <a href="/trust.html">trust or distrust</a> other MuWire users.
+You can choose to [trust or distrust](trust) other MuWire users.
 
 

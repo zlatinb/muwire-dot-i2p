@@ -9,7 +9,8 @@ MuWire is all about sharing information.
 There are several steps to sharing files with other users of MuWire:
 
 ### 1. Choose or create folders holding the shared files.
-These can be anywhere on your computer.  Local directories are better than network drives.
+These can be anywhere on your computer.  Local directories may be better than network drives
+because the system facility for 'watching' changes to a file is not automatic for networked drives.  You can set an option to use periodic checks by MuWire instead.
 
 ### 2. Tell MuWire about the folders and files
 You do this in the **Library** view by dragging and dropping folders and files into the upper panel.
@@ -33,13 +34,18 @@ The collection is hierarchical and will try to find a common ancestor of the sha
 The "Review" step is there to see exactly what the hierarchy looks like.
 
 ### 6. Optionally create a feed
-While any MuWire user can browse your published files or locate them using *Search*, you can choose to set up an [*feed* of new files](file-feeds).  Other MuWire users can then *subscribe* to this feed and be automatically informed of additions you make.
+While any MuWire user can browse your published files or locate them using *Search*, you can choose to set up a [*feed* of new files](file-feeds).  Other MuWire users can then *subscribe* to this feed and be automatically informed of additions you make.
+
+### 7. Restrict access
+Starting in MuWire version 0.8.13 it will be possible to restrict which users can see
+which files are inside a folder.
 
 ## Monitoring downloads
 Of course you will want to know if anybody is reading your stuff.
 
 * If you look at the **Collections** view, you can see how many times your collection has turned up in a search.
 * If you look in the **Feeds** view you can see how many times your files have been downloaded.
+* If you right-click on a file in the **Library** view and choose "Show file details" you can see how many searches have discovered the file, the keyword that matched, and who downloaded it.
 
 ## Tips
 * MuWire keeps track of files by a hash of their contents, not the file *name*.  Once a file has been published, you should avoid modifying it.
