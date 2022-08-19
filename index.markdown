@@ -96,7 +96,7 @@ a.plugin {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-*sha*  text-transform: uppercase;
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   //background: green;
