@@ -54,4 +54,4 @@ keyword that matched, and who downloaded it.
 
 ## Tips
 * MuWire keeps track of files by a hash of their contents, not the file
-*names*.  Once a file has been published, you should avoid modifying it.
+*names*.  Once a file has been shared, you should avoid modifying it.
