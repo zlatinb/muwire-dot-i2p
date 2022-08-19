@@ -19,8 +19,8 @@ You do this in the **Library** view by dragging and dropping folders and files i
 
 ### 3. Optionally add comments
 You can add comments to your shared files explaining what they are.  These comments will appear to a searcher if they right-click on a discovered file and select "View Details".
-You do this by adding a [Sidecar File](sidecar-files).
-
+You do this by adding a [Sidecar File](sidecar-files) or directly in the
+user interface by clicking the "Add comment" button.
 
 ### 4. Optionally add a certificate
 When you certify a file, you create a proof that you shared this file.  Even if you later delete the certificate, others may already have it so think carefully about whether you want to do this.
@@ -34,20 +34,24 @@ The collection is hierarchical and will try to find a common ancestor of the sha
 The "Review" step is there to see exactly what the hierarchy looks like.
 
 ### 6. Optionally create a feed
-While any MuWire user can browse your published files or locate them using *Search*, you can choose to set up a [*feed* of new files](file-feeds).  Other MuWire users can then *subscribe* to this feed and be automatically informed of additions you make.
+While any MuWire user can browse your shared files or locate them using
+*Search*, you can choose to publish a [*feed* of new files](file-feeds).
+Other MuWire users can then *subscribe* to this feed and be automatically
+informed of additions you make.
 
 ### 7. Restrict access
-Starting in MuWire version 0.8.13 it will be possible to restrict which users can see
-which files are inside a folder.
+Starting in MuWire version 0.8.13 it will be possible to restrict which
+users can see which files are inside a folder.
 
 ## Monitoring downloads
-Of course you will want to know if anybody is reading your stuff.
+Of course you will want to know whether anybody is reading your shared
+files.
 
 * If you look at the **Collections** view, you can see how many times your collection has turned up in a search.
-* If you look in the **Feeds** view you can see how many times your files have been downloaded.
-* If you right-click on a file in the **Library** view and choose "Show file details" you can see how many searches have discovered the file, the keyword that matched, and who downloaded it.
+* If you right-click on a file in the **Library** view and choose "Show
+file details" you can see how many searches have discovered the file, the
+keyword that matched, and who downloaded it.
 
 ## Tips
-* MuWire keeps track of files by a hash of their contents, not the file *name*.  Once a file has been published, you should avoid modifying it.
-
-* There are [performance issues](many-files) if you are sharing a large number of files.
+* MuWire keeps track of files by a hash of their contents, not the file
+*name*.  Once a file has been published, you should avoid modifying it.
