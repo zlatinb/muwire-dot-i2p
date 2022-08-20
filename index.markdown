@@ -161,12 +161,13 @@ The first time you run MuWire it will ask you to choose a nickname.  That nickna
 
 * **Share files**: 
 You can [share your own files](sharing) with other MuWire users, with several options:
-    * You can organize the files into [automatic feeds](file-feeds) like for a blog.
-    * You can add comments about your shared files.
+    * You can publish the files as [automatic feeds](file-feeds) like for a blog.
+    * You can [add comments](sidecar-files) about your shared files.
     * You can [issue a certificate](file-certificates) for a file you share to prove to others that you have the file.
 
-* **Messages And Chat**: 
-You can communicate with other MuWire users via messages and real-time chat.  
+* **Messages And Chat**:
+You can [communicate with other MuWire users](chat) via messages and
+real-time chat.
 
 * **Trust**:
 You can choose to [trust or distrust](trust) other MuWire users.
