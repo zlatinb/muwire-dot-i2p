@@ -70,7 +70,7 @@ The following configuration options should be included in that file
 
 
 <br/>
-Now you can launch the .jar file.  It will print a lot of stuff on `stdout`, that is normal.
+Now you can launch the .jar file. It will print out the Spring banner on stdout. 
 
 ## Try some commands
 
