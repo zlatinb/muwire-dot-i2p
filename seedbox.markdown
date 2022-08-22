@@ -46,11 +46,14 @@ If you have a lot of files that you just want to share and are not interested in
 <h2>MuWire Seedbox Daemon</h2>
 You need to have a Linux system with Java 11 or newer.<br/>
 (Download size 37 MB)<br/>
-<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.1.jar">Executable JAR file</a>
+<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.2.jar">Seedbox Daemon 0.0.2</a>
 </div>
 </center>
 
 ## Quick Start
+
+### Configuration
+
 1. Download the .jar file and mark it as executable
 2. Create a file called `application.properties` in the current working directory.
 
@@ -68,11 +71,18 @@ The following configuration options should be included in that file
 |rpc.iface|Interface on which to bind the JSON-RPC endpoint|Yes|
 |rpc.port|Port on which to bind the JSON RPC endpoint|Yes|
 
-
 <br/>
+Optionally, you can enable various `Actuator` endpoints for all kinds of metrics. Add the following line to `application.properties`:
+```
+management.endpoints.web.exposure.include=*
+```
+You can see which metrics are available at `/actuator`.  MuWire-specific metrics are available at `/actuator/muwire`
+
+### Running
+
 Now you can launch the .jar file. It will print out the Spring banner on stdout. 
 
-## Try some commands
+### Try some commands
 
 Assuming that you bound the rpc interface to localhost:12345
 
