@@ -43,10 +43,10 @@ If you have a lot of files that you just want to share and are not interested in
 
 <center>
 <div class="download-container">
-<h2>MuWire Seedbox Daemon 0.0.2</h2>
+<h2>MuWire Seedbox Daemon 0.0.3</h2>
 You need to have a Linux system with Java 11 or newer.<br/>
 (Download size 37 MB)<br/>
-<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.2.jar">Executable Jar</a>
+<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.3.jar">Executable Jar</a>
 </div>
 [ <a href="http://git.idk.i2p/zlatinb/muwire-seedbox-daemon">Source Code</a> ]
 </center>
@@ -54,21 +54,38 @@ You need to have a Linux system with Java 11 or newer.<br/>
 
 ## Configuration
 
-Create a file called `application.properties`.The following configuration options should be included in that file
+Create a file called `application.properties`.The following configuration options should be included in that file:
 
-|Name|Description|Required|
-|---|---|---|
-|i2p.host|Host where the I2P or I2Pd router is running|yes|
-|i2p.port|Port on which the I2CP interface is listening|yes|
-|i2p.tunnelLength|How long should the tunnels be |yes|
-|i2p.tunnelQuantity|How many tunnels to build|yes|
-|i2p.tunnelName|Name of the tunnel to report to the I2P router | No|
-|muwire.nickname|NIckname to use on the MuWire network|Yes|
-|muwire.workDir|Directory to use for storing file indices and others|Yes|
-|rpc.iface|Interface on which to bind the JSON-RPC endpoint|Yes|
-|rpc.port|Port on which to bind the JSON RPC endpoint|Yes|
+### Required settings:
+
+|Name|Description|
+|---|---|
+|i2p.host|Host where the I2P or I2Pd router is running|
+|i2p.port|Port on which the I2CP interface is listening|
+|muwire.nickname|NIckname to use on the MuWire network|
+|muwire.workDir|Directory to use for storing file indices and others|
+|rpc.iface|Interface on which to bind the JSON-RPC endpoint|
+|rpc.port|Port on which to bind the JSON RPC endpoint|
 
 <br/>
+### Optional settings:
+
+|Name| Description                                       |Default value|
+|---|---------------------------------------------------|---|
+|i2p.tunnelLength| How long should the tunnels be                    |3|
+|i2p.tunnelQuantity| How many tunnels to build                         |4|
+|i2p.tunnelName| Name of the tunnel to report to the I2P router    |"MuWire Seedbox"|
+|muwire.allowBrowsing| Whether to allow browsing of shared files         |true|
+|muwire.allowRegexQueries| Whether to allow regular expression queries       |true|
+|muwire.totalUploadSlots| How many uploads to allow simultaneously          |-1(unlimited)|
+|muwire.uploadSlotsPerUser| How many simultaneous uploads to allow per user   |-1(unlimited)|
+|muwire.hashingCores| How many CPU cores to use for hashing files       | Available cores / 4 |
+|muwire.throttleLoadingFiles| Whether to throttle loading of library on startup |false|
+|muwire.enableFeed|Whether to enable and auto-publish files to the feed| false|
+
+
+<br/>
+### Actuator Endpoints
 Optionally, you can enable various `Actuator` endpoints for all kinds of metrics. Add the following line to `application.properties`:
 ```
 management.endpoints.web.exposure.include=*
