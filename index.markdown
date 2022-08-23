@@ -121,7 +121,7 @@ MuWire is open-source.  You can find the source code on the GitLab link at the t
 -->
 
 <br/>
-# Download MuWire 0.8.12
+# Download MuWire 0.8.13
 
 <center>
 <div id="all-downloads-container">
@@ -129,22 +129,26 @@ MuWire is open-source.  You can find the source code on the GitLab link at the t
 <h2>Easy Install Bundle</h2>
 Comes with everything you need to run MuWire.<br/>
 ( Download size up to 53MB )<br/>
-<a class="get-muwire" href="/downloads/MuWire-0.8.12.exe">Windows</a>
-<a class="get-muwire" href="/downloads/MuWire-0.8.12.dmg">Mac</a>
+<a class="get-muwire" href="/downloads/MuWire-0.8.13.exe">Windows</a>
 <br/>
-<a class="get-muwire" href="/downloads/MuWire-0.8.12.AppImage">Linux x86-64</a>
-<a class="get-muwire" href="/downloads/MuWire-aarch64-0.8.12.AppImage">Linux AARCH64</a>
+<a class="get-muwire" href="/downloads/MuWire-0.8.13.dmg">Mac Intel</a>
+<a class="get-muwire" href="/downloads/MuWire-arm64-0.8.13.dmg">Mac Apple</a>
+<br/>
+<a class="get-muwire" href="/downloads/MuWire-0.8.13.AppImage">Linux x86-64</a>
+<a class="get-muwire" href="/downloads/MuWire-aarch64-0.8.13.AppImage">Linux AARCH64</a>
 </div>
 <div class="download-container">
 <h2>Small Download Bundle</h2>
 You need to have Java 11 or newer.<br/>
 ( Download size 27MB )<br/>
-<a class="get-muwire" href="/downloads/MuWire-0.8.12.zip">ZIP File</a>
+<a class="get-muwire" href="/downloads/MuWire-0.8.13.zip">ZIP File</a>
 </div>
+<!--
 <div class="download-container">
 Interested in trying the latest features?<br/>
 <a class="get-beta" href="/beta.html">BETA</a>
 </div>
+-->
 <div class="mucats">
 [ I2Pd users please see the <a href="/i2pd.html">I2Pd instructions</a>. ]
 </div>
