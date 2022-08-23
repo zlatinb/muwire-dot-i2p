@@ -43,21 +43,18 @@ If you have a lot of files that you just want to share and are not interested in
 
 <center>
 <div class="download-container">
-<h2>MuWire Seedbox Daemon</h2>
+<h2>MuWire Seedbox Daemon 0.0.2</h2>
 You need to have a Linux system with Java 11 or newer.<br/>
 (Download size 37 MB)<br/>
-<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.2.jar">Seedbox Daemon 0.0.2</a>
+<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.2.jar">Executable Jar</a>
 </div>
+[ <a href="http://git.idk.i2p/zlatinb/muwire-seedbox-daemon">Source Code</a> ]
 </center>
 
-## Quick Start
 
-### Configuration
+## Configuration
 
-1. Download the .jar file and mark it as executable
-2. Create a file called `application.properties` in the current working directory.
-
-The following configuration options should be included in that file
+Create a file called `application.properties`.The following configuration options should be included in that file
 
 |Name|Description|Required|
 |---|---|---|
@@ -78,11 +75,13 @@ management.endpoints.web.exposure.include=*
 ```
 You can see which metrics are available at `/actuator`.  MuWire-specific metrics are available at `/actuator/muwire`
 
-### Running
+## Running
 
-Now you can launch the .jar file. It will print out the Spring banner on stdout. 
+1. Download the jar file from the link above and mark it executable.  
+2. Place it in the same directory where the `application.properties` file is from the previous step.
+3. Now you can launch the .jar file. It will print out the Spring banner on stdout. 
 
-### Try some commands
+## Try some commands
 
 Assuming that you bound the rpc interface to localhost:12345
 
