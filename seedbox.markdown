@@ -43,10 +43,10 @@ If you have a lot of files that you just want to share and are not interested in
 
 <center>
 <div class="download-container">
-<h2>MuWire Seedbox Daemon 0.0.3</h2>
+<h2>MuWire Seedbox Daemon 0.1.0</h2>
 You need to have a Linux system with Java 11 or newer.<br/>
 (Download size 37 MB)<br/>
-<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.0.3.jar">Executable Jar</a>
+<a class="get-muwire" href="/downloads/muwire-seedbox-daemon-0.1.0.jar">Executable Jar</a>
 </div>
 [ <a href="http://git.idk.i2p/zlatinb/muwire-seedbox-daemon">Source Code</a> ]
 </center>
