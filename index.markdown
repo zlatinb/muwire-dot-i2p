@@ -143,12 +143,12 @@ You need to have Java 11 or newer.<br/>
 ( Download size 27MB )<br/>
 <a class="get-muwire" href="/downloads/MuWire-0.8.13.zip">ZIP File</a>
 </div>
-<!--
+
 <div class="download-container">
 Interested in trying the latest features?<br/>
 <a class="get-beta" href="/beta.html">BETA</a>
 </div>
--->
+
 <div class="mucats">
 [ I2Pd users please see the <a href="/i2pd.html">I2Pd instructions</a>. ]
 </div>
