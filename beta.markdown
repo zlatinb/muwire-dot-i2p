@@ -7,20 +7,21 @@ permalink: /beta.html
 
 BETA builds come with the latest and greatest features, but may have bugs and be generally unstable.  They are recommended to advanced users and the adventurous.
 
-### MuWire-0.8.14-beta1
+### MuWire-0.8.14-beta2
 
 Features:
 * On-demand browse host - GitHub issue 104
 * Ability to export and import connections
 * System notifications on Linux
 * Fixes for syncing of network mounts
+* Redesigned search and colletion view tabs
 * Various small fixes and improvements
 
-Built from tag `0.8.14-beta1`
+Built from tag `0.8.14-beta2`
 
-* [Windows installer](/downloads/MuWire-0.8.14-beta1.exe)
-* [Linux AppImage](/downloads/MuWire-0.8.14-beta1.AppImage)
-* [Linux/Mac .zip](/downloads/MuWire-0.8.14-beta1.zip) 
+* [Windows installer](/downloads/MuWire-0.8.14-beta2.exe)
+* [Linux AppImage](/downloads/MuWire-0.8.14-beta2.AppImage)
+* [Linux/Mac .zip](/downloads/MuWire-0.8.14-beta2.zip) 
 
 # MuWire CI builds
 
